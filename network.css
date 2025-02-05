@@ -1,0 +1,77 @@
+:root {
+    --spacing: .5rem;
+  }
+body {
+    height: 100%; 
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans', 'Verdana', sans-serif;
+}  
+  
+.top-header {
+    flex-basis: 60px;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    background-color:#0055A2;
+    max-height:60px;
+} 
+h1 {
+    font-size:1.25rem;
+    line-height: 1.75rem;
+    color:#fff;
+}
+.top-header h2 {
+    font-size:.75rem;
+    line-height: .75rem;
+    color:#fff;
+}
+main.container {
+    flex-basis: 70%
+}
+
+.flex-item {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.message-wrapper {
+    width: 80%;
+    padding-right:20px;
+    padding-bottom:20px;
+    
+}
+
+.qr-wrapper {
+    width: 20%;
+    min-width:125px;
+    container-type: size;
+}
+#qr-label {
+    font-size: 10cqw;
+}
+footer.container {
+    flex-basis: 150px;
+    display: flex;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+.credit {
+    width:50%;
+    align-self: flex-end;
+}
+.share-wrapper {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+.share-label {
+    align-self: flex-end;
+}
+
+#share {
+    width: 100px;
+    align-self: flex-end;
+}

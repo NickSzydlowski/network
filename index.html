@@ -1,0 +1,56 @@
+<html data-theme="light">
+  <head>
+    <title>Free Expression</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="network.css">
+   
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/qrcode.min.js"></script>
+    <script src="network.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  </head>
+
+  <body>
+    <header class="top-header">
+      <div class="container top">
+      <hgroup>
+        <h1 id='head'>Research Connector</h1>
+        <h2 id='subhead'>SJSU Research Week</h2>
+      </hgroup>
+         </div>
+    </header>
+
+    <main class="container" aria-busy="true">
+
+      <section id="item-container" class="flex-item">
+        <div class="message-wrapper">
+          <div id="message"></div>
+          <div id="name"></div>
+        </div>
+        <div class="qr-wrapper">
+          <div id="qr-label"></div>
+          <div id="qr"></div>
+        </div>
+        
+
+      </section>
+    </main>
+
+  <footer class="container">
+    <div class='credit'>
+      <small>Created by King Library's Digital Humanities Center</small>
+  </div>
+  <div class='share-wrapper'>
+    <div class='share-label'>
+      <small>Share your own message:</small>
+    </div>
+    <div id='share'></div>
+  </div>
+  </footer>
+
+  </body>
+
+<html>
